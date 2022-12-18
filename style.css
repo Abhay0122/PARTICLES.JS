@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden !important;
+    position: relative;
+}
+
+@font-face {
+    font-family: yank;
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+#particles-js {
+    min-height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.019);
+    /* overflow: hidden; */
+}
+
+.div_wrapper {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#container {
+    min-height: 98.5vh;
+    width: 100.8vw;
+    background-image: url(hokage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgba(255, 255, 255, 0);
+    position: absolute;
+}
+
+h1 {
+    font-size: 8vmax;
+    letter-spacing: 15px;
+    color: white;
+    font-family: yank;
+    font-style: italic;
+    width: 100vw;
+    text-align: center;
+    font-weight: 900;
+    background-image: url(Dante\ vs\ Vergil\ Devil\ May\ Cry\ Wallpaper\,\ HD\ Games\ 4K\ Wallpapers\,\ Images\,\ Photos\ and\ Background\ -\ Wallpapers\ Den.jpg);
+    background-repeat: repeat;
+    background-position: inherit;
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+
+#snake_animation {
+    min-height: inherit;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+    background: linear-gradient(to bottom, #2200ff, #2200ff, #ff005d, #ff005d, #7bff00, #7bff00);
+    box-shadow: 0px 0px 10px #ffffff;
+    animation: snake 2s ease-in-out infinite both;
+}
+
+/* #snake_animation_2 {
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #2200ff, #2200ff, #ff005d, #ff005d, #7bff00, #7bff00);
+    box-shadow: 0px 0px 10px #ffffff;
+    animation: move 2s linear  infinite;
+} */
+
+@keyframes snake {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+/* @keyframes move {
+    0% {
+        transform: rotate(-360deg);
+    }
+} */
+

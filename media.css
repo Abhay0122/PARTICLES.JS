@@ -1,0 +1,26 @@
+@media (min-width:0px) and (max-width:500px){
+
+    #particles-js{
+        height: 500px;
+        width: 800px;
+    }
+
+    #container{
+        width: 96vw;
+        min-height: 101vh;
+    }
+
+    #snake_animation{
+        animation-duration: 1s;
+        animation-delay: 0.5s;
+    }
+
+    h1{
+        /* height: 50vmax; */
+        letter-spacing: 5px;
+        text-align: initial;
+        font-size: 4vmax;
+        font-weight: 500;
+    } 
+    
+}
