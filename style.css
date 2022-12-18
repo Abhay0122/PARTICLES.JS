@@ -74,6 +74,8 @@ h1 {
     -webkit-font-smoothing: antialiased;
 }
 
+/* ________\\\\_______ */
+
 #snake_animation {
     min-height: inherit;
     width: 100vw;
