@@ -58,6 +58,8 @@ h1 {
     color: white;
     font-family: yank;
     font-style: italic;
+    position: relative;
+    z-index: 12;
     width: 100vw;
     text-align: center;
     font-weight: 900;
