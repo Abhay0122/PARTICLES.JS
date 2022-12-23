@@ -39,9 +39,9 @@ body {
 }
 
 #container {
-    min-height: 98.5vh;
-    width: 100.8vw;
-    background-image: url(hokage.jpg);
+    min-height: 97.5vh;
+    width: 100vw;
+    background-image: url(txt-bg-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,17 +53,17 @@ body {
 }
 
 h1 {
-    font-size: 8vmax;
+    font-size: 11vmax;
     letter-spacing: 15px;
     color: white;
-    font-family: yank;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     position: relative;
     z-index: 12;
     width: 100vw;
     text-align: center;
     font-weight: 900;
-    background-image: url(Dante\ vs\ Vergil\ Devil\ May\ Cry\ Wallpaper\,\ HD\ Games\ 4K\ Wallpapers\,\ Images\,\ Photos\ and\ Background\ -\ Wallpapers\ Den.jpg);
+    background-image: url(pexels-sebastiaan-stam-1097456.jpg);
     background-repeat: repeat;
     background-position: inherit;
     background-size: contain;
